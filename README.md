@@ -40,8 +40,10 @@ Physics-informed models are notoriously "stiff" to train. This project uses a **
 2.  **Stage 2 (L-BFGS):** A second-order optimizer used to refine the physics residuals to high precision ($< 10^{-6}$), ensuring the wave maintains its shape throughout the $2\pi$ cycle.
 
 ---
-
-
+### Visualizations
+![Wave Evolution](results/wave_evolution.png)
+*Figure 1: Evolution of the probability density $|\psi|^2$ over one full period of oscillation.*
+---
 ## Installation
 
 ```bash

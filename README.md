@@ -6,9 +6,10 @@ This repository implements a **Physics-Informed Neural Network (PINN)** to solve
 
 ## The Physics Problem
 
-We simulate a particle trapped in a quadratic potential $V(x) = \frac{1}{2}x^2$. The system is governed by the Schrödinger Equation:
+We simulate a particle trapped in a quadratic potential $V(x) = \frac{1}{2}x^2$. The system is governed by the Scaled Schrödinger Equation:
 
 $$i \frac{\partial \psi}{\partial t} = -\frac{1}{2} \frac{\partial^2 \psi}{\partial x^2} + V(x)\psi$$
+
 
 ### The "Coherent State" Experiment
 We initialize the system with a **Gaussian Wave Packet** (Coherent State) shifted to $x = -2.0$. In a harmonic potential, the laws of quantum mechanics dictate that this packet should oscillate back and forth like a classical pendulum **without changing its shape or dispersing**.

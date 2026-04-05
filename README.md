@@ -41,7 +41,7 @@ Physics-informed models are notoriously "stiff" to train. This project uses a **
 
 ---
 ### Visualizations
-![Wave Evolution](results/wave_evolution.png)
+![Wave Evolution](wave_evolution.png)
 *Figure 1: Evolution of the probability density $|\psi|^2$ over one full period of oscillation.*
 ---
 ## Installation

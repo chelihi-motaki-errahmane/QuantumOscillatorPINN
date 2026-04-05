@@ -46,8 +46,7 @@ Physics-informed models are notoriously "stiff" to train. This project uses a **
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/PINN-Quantum-Oscillator.git
-cd PINN-Quantum-Oscillator
+https://github.com/chelihi-motaki-errahmane/QuantumOscillatorPINN.git
 
 # Install dependencies
 pip install torch numpy matplotlib

@@ -1,1 +1,3 @@
-torch numpy matplotlib
+torch 
+numpy 
+matplotlib
